@@ -1,40 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Farman Ali | Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: white;
-      text-align: center;
-      padding: 60px 20px;
-    }
-    h1 { font-size: 2.5rem; }
-    p { color: #cbd5f5; }
-    .btn {
-      display: inline-block;
-      margin: 10px;
-      padding: 12px 24px;
-      background: #38bdf8;
-      color: black;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1rem;
+            color: #777;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: #444;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            color: #aaa;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <header>
+            <!-- Replace "profile.jpg" with your image path -->
+            <img src="profile.jpg" alt="Your Name">
+            <h1>Your Name</h1>
+            <p>Web Developer | Designer | Freelancer</p>
+        </header>
 
-  <h1>Hi, I'm Farman Ali 👋</h1>
-  <p>Web Developer | GitHub Projects | Portfolio</p>
+        <section>
+            <h2>About Me</h2>
+            <p>Hi! I am Your Name, a passionate web developer with experience in creating responsive and modern websites. I love turning ideas into reality using code.</p>
+        </section>
 
-  <a class="btn" href="https://github.com/FarmanAli-dev" target="_blank">
-    GitHub
-  </a>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Node.js</li>
+                <li>Responsive Design & UI/UX</li>
+                <li>Version Control (Git)</li>
+            </ul>
+        </section>
 
+        <section>
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Web Developer Intern</strong> - XYZ Company (2024)</li>
+                <li><strong>Freelance Web Designer</strong> - Various Clients</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Science in Computer Science - ABC University</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+                <p>Phone: +123 456 7890</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+                <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+            </div>
+        </section>
+
+        <footer>
+            &copy; 2025 Your Name. All rights reserved.
+        </footer>
+    </div>
 </body>
 </html>
